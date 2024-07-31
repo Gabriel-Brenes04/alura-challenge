@@ -121,6 +121,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
   copy.addEventListener("click", (event) => {
 
+    navigator.permissions.query({ name: "clipboard-write" }).then((result) => {
+      if (result.state === "granted" || result.state === "prompt") {
+     alert("Le has dado permiso a tu portapapeles");
+      }else{
+        alert("Intenta de nuevo mas tarde");
+      }
+    });
     
     let copyText;
 
