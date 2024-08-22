@@ -4,8 +4,11 @@
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
-    margin: 30px;
-   color:aqua
+    margin: 20px;
+   color:#0F82FC
+
+
+
 
 }
 
@@ -13,12 +16,22 @@ textarea{
 padding: 100px;
 margin: 20px;
 resize: none;
-color:black;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-background-color: #c5f2cd;
+color:#BDDDF8;
+font-family: 'Trebuchet MS';
+background-color: white;
+color: #000;
+font-size: 20px;
 }
+
+:disabled {
+    background-color:#73BDFB;
+  }
+
 body{
-    background-color: black;
+    background-color: #BDDDF8;
+
+;
+    aspect-ratio: auto;
 }
 
 .texto{
@@ -36,30 +49,55 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 300px;
+    gap: 20%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:aqua
+    color:#0F82FC
+
+
+
 }
 
 
 .switch{
     display: flex;
     justify-content: center;
-    padding: 10px;
-  
+    padding-bottom: 70px;
+    padding-top: 10px;
 }
 
 button{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-right: 20px;
-    background-color: black;
-    border-color: aqua;
+    font-family: 'Trebuchet MS';
+    margin-left: 45px;
+    margin-right: 50px;
+    background-color: #0F82FC;
+    border-color: #0F82FC;
     border-radius: 15%;
-    color:aqua
+    color:white;
+    width: 15em;
+    height: 5em;
+    font-size: 150%;
+
+
+
 }
 
 footer{
-    background-color: black;
-    color:aqua;
+    background-color: #BDDDF8;
+    color:#0F82FC;
     display:flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
 }
+
+img{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }

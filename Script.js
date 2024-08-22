@@ -103,15 +103,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
       texto2.disabled = false;
       texto1.disabled = true;
 
-      texto2.placeholder= "Escribe aqui"
-      texto1.placeholder= ""
+      texto2.placeholder= "Desecripta tu texto"
+      texto1.placeholder= "";
+      boton.value = "Encriptar";
 
     }else{
       texto2.disabled = true;
       texto1.disabled = false;
 
       texto2.placeholder= ""
-      texto1.placeholder= "Escribe aqui"
+      texto1.placeholder= "Encripta tu texto"
+      boton.value = "Desencriptar";
     }
 
   texto1.value = ""
@@ -148,3 +150,4 @@ document.addEventListener("DOMContentLoaded", (event) => {
   }
 )}
 );
+
