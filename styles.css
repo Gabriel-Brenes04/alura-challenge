@@ -95,6 +95,24 @@ img{
     justify-content: center;
 }
 
+span{
+    font-size: 100px;
+    color:#0F82FC;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.advertencia{
+display: flex;
+flex-direction: row;
+justify-content: center;
+color:#0F82FC;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    color:#0F82FC;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 @media only screen and (max-width: 768px) {
     .texto{
         flex-direction:  column;
