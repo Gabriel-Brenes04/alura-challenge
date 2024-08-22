@@ -96,8 +96,11 @@ img{
 }
 
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
+    .texto{
+        flex-direction:  column;
     }
+   .subtitles{
+    color: transparent; /* make the text invisible */
+    user-select: none; /* prevent selection of the text */
+   }
   }
